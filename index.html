@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Lee Knowlton" />
+  <meta name="description" content="The NYSL Homepage" />
+  <title>NYSL Home - Northside Youth Soccer League</title>
+  <link href="./css/nysl_3.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="blurIn" id="blur" onclick="show()"></div>
+
+  <nav>
+    <div id="nav">
+      <!-- <div class="logo"></div> -->
+
+      <div class="sidebarIn" id="sidebar">
+        <div class="toggle-btn" onclick="show()">
+          <span id="fistSpan"></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li id="navegadorInicial" onclick="render('indexP')">Home</li>
+          <li id="navegador" onclick="render('aboutP')">About NYSL</li>
+          <li id="navegador" onclick="render('registrationP')">Registration</li>
+          <li id="navegador" onclick="render('infoP')">Game Information</li>
+          <li id="navegador" onclick="render('rulesP')">Rules</li>
+          <li id="navegadorFinal" onclick="render('contactP')">Contact</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="indexPage">
+
+    <header>
+      <div class="logo"></div>
+      <div class="pageheader" id="pageheader">
+        <h1>Upcoming Events</h1>
+      </div>
+    </header>
+
+    <article id="containerI">
+      <div id="bodycontent">
+        <div id="upcoming">
+          <h2>August 4</h2>
+          <p id="indent">NYSL Fundraiser</p>
+
+          <h2>August 16</h2>
+          <p id="indent">Season Kick-off: Meet the Teams</p>
+
+          <h2>September 1</h2>
+          <p id="indent"> First Game of the Season (Check Game Schedule for details)</p>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+
+  <div id="aboutPage">
+    <div class="blurA" id="blur" onclick="show()"></div>
+
+    <header>
+      <div class="logoA" id="logoA"></div>
+      <div id="container">
+        <div class="pageheaderA" id="pageheader">
+          <h1>About</h1>
+        </div>
+      </div>
+    </header>
+
+    <article>
+      <div id="bodycontentA">
+        <div id="rules">
+
+          <div id="allAcordiones">
+            <div class="accordion accordion-flush" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <h3>Mission</h3>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    <p id="indenteado">To support young athletes living in Chicago's northside neighborhoods, who have
+                      an
+                      interest in learning and playing soccer, with opportunities to learn and practice skills related
+                      to
+                      the
+                      game of soccer, specifically those skills around team cooperation and good sportsmanship.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </span>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h3>Vision</h3>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p id="indenteado">The Northside Youth Soccer League aspires to develop strong, well-rounded, and
+                    mindful
+                    athletes through the building of character, self-discipline, and leadership.</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <h3>General Information</h3>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p id="indenteado">The Northside Youth Soccer League was established in 1996 to provide athletes
+                    residing
+                    in Chicago's northside neighborhoods an environment in which to learn and play soccer. To be a
+                    member
+                    of
+                    NYSL, you must be between the ages of 4 - 12 and reside in a Chicago northside neighborhood. NYSL is
+                    run
+                    by a small full-time staff, and relies on the generous volunteer time of parents and previous league
+                    members.</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div id="Escondido" class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Esto está escondido :))))))))))))))) )))))))))))))))</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </article>
+
+  </div>
+
+
+  <div id="infoPage">
+
+    <header>
+      <div class="logoIn" id="logo"></div>
+      <div class="pageheaderTa" id="pageheader">
+        <h1>NYSL <br> Game Information</h1>
+      </div>
+    </header>
+
+    <div id="containerTa">
+      <article>
+        <div id="bodycontentTa">
+          <div class="schedule">
+            <h3>Fall Schedule</h3>
+            <p>*All games take place on Saturday</p>
+            <br>
+          </div>
+
+
+          <table>
+            <tbody id="tablaT">
+
+            </tbody>
+          </table>
+
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+
+                <h3 id="september">SEPTEMBER</h3>
+
+                <table id="infotable">
+                  <thead>
+                    <tr>
+                      <td>Teams </td>
+
+                      <td>Location</td>
+
+                      <td>Time</td>
+
+                      <td>Day</td>
+                    </tr>
+                  </thead>
+
+                  <tbody id="tablaS">
+
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="carousel-item">
+
+                <h3 id="october">OCTOBER</h3>
+
+                <table id="infotable">
+
+                  <thead>
+                    <tr>
+                      <td>Teams </td>
+
+                      <td>Location</td>
+
+                      <td>Time</td>
+
+                      <td>Day</td>
+                    </tr>
+                  </thead>
+
+                  <tbody id="tablaO">
+
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next </span>
+            </button>
+          </div>
+
+
+          <div id="fondo">
+            <p><br><strong>Facility Type:</strong> Outdoor</p>
+            <p><strong>Additional Information:</strong> If deemed necessary by NYSL, games may be shortened or cancelled
+              due
+              to extreme weather conditions.</p>
+            <p><strong>Please direct all questions to:</strong> Michael Randall, League Coordinator</p>
+            <address>
+          </div>
+          <div id="fondo2">
+            <br><br><br><br><br>
+            <p><span style="float: left;"><strong>Phone:</strong> (630) 690-8132</span></p>
+            <p style="text-align: right"><strong>Email:</strong> <a
+                href="mailto:michael.randall@chisoccer.org">michael.randall@chisoccer.org</a></p>
+            </address>
+          </div>
+
+        </div>
+      </article>
+    </div>
+
+  </div>
+
+
+  <div id="rulesPage">
+
+    <header>
+      <div class="logoR" id="logoR"></div>
+  
+      <div id="containerR">
+        <div id="pageheaderR">
+          <h1>Rules of Play &amp; Policies
+            <br> Northside Youth Soccer <br> League
+          </h1>
+          <br>
+          <h3>FIFA rules shall govern NYSL play except as modified herein.</h3>
+        </div>
+    </header>
+  
+  <article>
+    <div id="bodycontentR">
+      <div id="rules">
+  
+  
+        <div id="allAcordiones">
+          <div class="accordion accordion-flush" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h3>Sportsmanship</h3>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <ul id="indenteado">
+                    <li>The common interest that members of the Association share is to inspire youth to practice the
+                      ideals of
+                      sportsmanship and fair play. Any player, coach, team, parent, spectator, administrator or referee
+                      whose
+                      behavior detracts from this purpose is subject to disciplinary action regardless of technical
+                      soccer
+                      background, expertise, accomplishments or standing.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          </span>
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                <h3>Fifa Field Regulations</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <ol>
+                    <li><h4>Dimensions.</h4> FIFA Law 1 provides for flexible external field dimensions within a given maximum and minimum width and length. These dimensions should be adhered to for all fields used by teams under 12 and older. 
+                    </li>
+                    
+                    <li><h4>Competition Fields.</h4> Fields used within the competition program must be a minimum of 100 x 60 yards. Leagues, districts or associations participating in the state competition program that are unable to provide a field that meets these minimum requirements must advise the State Competition Board which will assign its Fields Committee to inspect the field and recommend to the Board whether or not a waiver of the minimum dimensions should be granted. Teams from leagues, districts or associations that are unable to provide an acceptable field may be required to play all their games away.
+                    </li>
+                    
+                    <li><h4>Fields Used By Young Age Groups.</h4>
+                    <ol type="a">
+                      <li>U-6 play on a field approximately 20 X 40 yards with no penalty areas. Fields for older age groups should be progressively larger.</li>
+                      <li>U-8 plays on a field 40-50 yards in length and 20-30 yards width.</li>
+                      <li>U-10 play on a field 70-80 yards in length and 40-50 yards in width.</li>
+                      <li>In addition, fields used by young age groups may have their internal dimensions and size of goal similarly modified.</li>
+                    </ol>
+                    </li>
+                <li>
+                  <h4>Team Bench Areas</h4>
+                  <ol type="a">
+                    <li>Recreation &amp; District Programs
+                      <ul>
+                        <li>The decision for team/spectator placement on the field will be made by the governing body of
+                          that
+                          team. A team's bench area shall consist of that area at least one (1) yard away from the
+                          touchline and
+                          extending to twenty yards (20) both ways from the halfway line. In the event that field 2
+                          conditions
+                          require team benches to be on the same side of the field, a team's bench area shall consist of
+                          that
+                          area two(2) yards away from the touchline and extending twenty yards one (1) way from the
+                          halfway
+                          line.</li>
+                        <li>The home team has first choice as to where it wishes to locate its bench area. Coaches and
+                          substitutes are required to remain within their bench area during the game. Parents and
+                          spectators
+                          should occupy the same side of the field as the team they are supporting.</li>
+                      </ul>
+                    </li>
+  
+                    <li>State Competition League Only
+                      <ul>
+                        <li>Except where it is determined by the referee to be impractical, team bench areas shall be
+                          along the
+                          same touchline. Each team bench area shall be located two yards outside the touchline,
+                          beginning not
+                          closer than five yards from midfield and extending not further than twenty yards from
+                          midfield. The
+                          home team shall have the right to choose the location of its bench area. Coaches and
+                          substitutes must
+                          remain within their team's bench area during the game.</li>
+                        <li>Parents and spectators must occupy the sideline opposite the team bench areas. Supporters of
+                          a team
+                          must assemble on the side of the midfield facing the team bench area of that team. There shall
+                          be a
+                          buffer zone extending ten yards on each side of the midfield that may not be occupied by
+                          parents or
+                          spectators. Match officials shall be empowered to enforce these provisions and may suspend or
+                          terminate games in the event that any team, coach, parent, or spectator declines to abide by
+                          requests
+                          from match officials to comply with these standards.</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <h3>Equipment</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>
+                    We will abide by and accept equipment standards as defined by FIFA, USSF and USYSA.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                <h3>Number of Players</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>
+                    <h4>Team Size.</h4> Except as noted below, below, team rosters shall consist of not less than eleven
+                    nor more
+                    than eighteen players. A team must have at least seven (7) players present and able to play before
+                    referees
+                    are permitted to start a sanctioned game. No more than eleven (11) players per team may be on the
+                    field at any
+                    one time during the game.
+                  </li>
+                  <li>
+                    <h4>Size of Age Group Teams.</h4> In order to give player's maximum opportunity to develop in the
+                    game of
+                    soccer, U-6 through U-1O play modified rules and size of roster as stated in United States Youth
+                    Soccer
+                    Association (USYSA) rules. It is strongly recommended that U-6 and U-8 play 4 v 4. UYSA shall not
+                    sanction
+                    games involving teams under 10 or younger unless such games are conducted with not more than eight
+                    (8) players
+                    per side. (National rule 4036 section 2)
+                  </li>
+                  <li>Recreational/Developmental players at other ages or where numbers in the playing area are low are
+                    strongly
+                    encouraged to play small-sided games on reduced field size.</li>
+  
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                <h3>Substitutions</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>Teams may make an unlimited number of substitutions at the times indicated below. A player who has
+                    been
+                    replaced may re-enter the game as a substitute at a later time.
+                    <ol>
+                      <li>Prior to a throw-in your favor.</li>
+                      <li>Prior to a goalkick by either team.</li>
+                      <li>After a goal by either team.</li>
+                      <li>After an injury, by either team, when the referee stops play.</li>
+                      <li>At half time.</li>
+                      <li>When a player has been &quot;cautioned&quot;, only the player receiving &quot;caution&quot;
+                        may be
+                        substituted.</li>
+                    </ol>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                <h3>Confiscated Player Passes</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>Passes of any individual(s) ejected from any match shall be retained after the match by the
+                    referee. The
+                    pass of any individual who has received a third caution (yellow card) during a playing year shall be
+                    confiscated by the referee at the conclusion of the match in which the third caution was received.
+                    That
+                    player
+                    will be suspended from playing in the next game in which the offending participant would otherwise
+                    be
+                    eligible
+                    to participate. This process will continue so that for every third yellow card received during a
+                    playing
+                    year,
+                    the player will be suspended from playing in the next game (after the receipt of a third yellow
+                    card) for
+                    which the offending participate would otherwise be eligible to participate. The referee shall
+                    deliver all
+                    confiscated passes to the UYSA State Office within forty-eight (48) hours of the conclusion of the
+                    match.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSeven">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                <h3>All-Play</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>All-play means that every recreation player on every team shall play at least fifty percent of
+                    each game.
+                    Coaches in the competition program are encouraged to play their players 50% of each game.
+                    <ul style="list-style-type:circle;">
+                      <li>A Coach shall be permitted to not play a player 50% of each game under special circumstances,
+                        e.g.,
+                        unexcused absences from practice and/or games, ungentlemanly conduct at practice and/or games,
+                        and
+                        injuries.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEight">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                <h3>Player's Equipment</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>Where the uniform colors of both teams are so similar that the referee orders a change, the
+                    designated
+                    home
+                    team must change to colors distinct from those of the opponent.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingNine">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                <h3>Mixed Teams</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>
+                    <h4>Girls Playing On Boys' Teams.</h4> Girls are eligible to play on boys'teams with parent/guardian
+                    permission.
+                  </li>
+                  <li>
+                    <h4>Types of Teams.</h4> Teams with females only are Girls Teams. All others are Boys Teams.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTen">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                <h3>Coaching from the Sidelines</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>Coaching from the sidelines, i.e., giving direction to one's own team on points of strategy and
+                    position,
+                    is
+                    permitted provided that:
+                    <ol>
+                      <li>No mechanical, electrical or other devices are used to amplify the voice.</li>
+                      <li>The tone of voice is informative and not a harangue.</li>
+                      <li>The coaching takes place within the team's bench area.</li>
+                      <li>No coach, substitute, player or spectator is to make derogatory remarks or gestures to the
+                        referees,
+                        linesmen, players, substitutes or spectators.</li>
+                      <li>No coach, player, substitute or spectator is to use profanity or incite, in any manner,
+                        disruptive
+                        behavior of any kind.</li>
+                    </ol>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingEleven">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                <h3>Game Termination</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>Any game terminated after 15 minutes into the second half by the referee by reason of the
+                    elements, or by
+                    reason of grave disorder on the part of the coaches, players or spectators of a team that is losing
+                    at the
+                    point that the game is terminated, shall stand as a completed game. If a team is ahead and the game
+                    is
+                    called
+                    because of their actions they will lose the game 1-0.
+                </ul>
+  
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwelve">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                <h3>Conditions of Replay of Games</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li>Any game which is required to be replayed as a result of any protest orappeal, shall be subject to
+                    the
+                    following conditions:
+                    <ol>
+                      <li>The game shall be replayed on the same field, as was the suspended or protested game, unless
+                        otherwise
+                        agreed by the coaches.</li>
+                      <li>Impartial referees shall be assigned to the new game.</li>
+                      <li>The PROTEST AND APPEALS COMMITTEE shall have the power to impose such additional conditions on
+                        the
+                        replay of the game, as it deems appropriate under the circumstances.</li>
+                    </ol>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTheerteen">
+              <button id="ACORDION" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTheerteen" aria-expanded="false" aria-controls="flush-collapseTheerteen">
+                <h3>Referee Responsibilities</h3>
+              </button>
+            </h2>
+            <div id="flush-collapseTheerteen" class="accordion-collapse collapse" aria-labelledby="flush-headingTheerteen"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <ul id="indenteado">
+                  <li> The referee shall verify the identity of the players and coaches with his/her player pass. He
+                    shall
+                    collect
+                    the passes of those players and coaches who are to participate in the game. The referee must allow
+                    no player
+                    into the game for whom he/she has no pass.</li>
+                  <li>Upon completion of the game, the referee shall send his/her report to the UYSA offices within four
+                    (4)
+                    days,
+                    holidays excluded. If a coach or a player is ejected, the referee report form is required within
+                    forty-eight
+                    (48) hours along with the player/coach pass.</li>
+                  <li>A referee report form must be filed for every game played.</li>
+                  <li>Each team must determine whether or not referees are registered prior to the start of each game.
+                    Upon
+                    request, referees officiating at any game must willingly and without bias, show documentation
+                    regarding
+                    their
+                    certification level and registration standing with the USSF to coach, assistant coach, or team
+                    captain of
+                    teams participating in that game. Prior to the game a coach may decide to postpone the game if the
+                    referees
+                    do
+                    not produce the requested documentation. The game is to be replayed at a later date.</li>
+                  <li>Referees not complying with this section will be referred to the Disciplinary Committee.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div id="Escondido" class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Esto está escondido :))))))))))))))) )))))))))))))))</strong> 
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
+
+  </div>
+
+
+  <div id="contactPage">
+    <header>
+      <div class="logoC" id="logo"></div>
+      <div class="pageheaderC" id="pageheaderC">
+        <h1>Contact</h1>
+      </div>
+    </header>
+
+    <article>
+      <div id="bodycontentC">
+        <p>Please email us at
+          <br><br>
+          <a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a>
+          <br><br>
+          We will reply to your email as soon as we can.
+        </p>
+      </div>
+    </article>
+  </div>
+
+
+  <div id="registrationPage">
+
+    <header>
+      <div class="logo"></div>
+      <div id="pageheaderRe">
+        <h1>Registration Form</h1>
+      </div>
+    </header>
+
+    <article>
+      <div id="bodycontentRe">
+
+        <div id="firstRe">
+          <form method="get" action="show_data.html">
+            <div class="stylized">
+              <label for="first_name">Player's First Name:</label>
+              <input onclick="proe()" type="text" name="first_name" id="registration" />
+              <label for="last_name">Last Name:</label>
+              <input type="text" name="last_name" id="registration" />
+              <label for="street_address">Street Address:</label>
+              <input type="text" name="street_address" id="registration" />
+              <label for="city">City:</label>
+              <input type="text" name="city" id="registration" />
+              <label for="zip">Zip Code:</label>
+              <input type="text" name="zip" id="registration" />
+              <label for="birth_date">Birth Date (mm/dd/yyyy):</label>
+              <input type="date" name="birth_date" id="registration2" />
+              <label for="parent_guardian">Parent/Guardian Name:</label>
+              <input type="text" name="parent_guardian" id="registration" />
+              <label for="contact_phone">Contact Phone:</label>
+              <input type="text" name="contact_phone" id="registration" />
+              <label for="contact_email">Contact Email:</label>
+              <input type="text" name="contact_email" id="registration" />
+
+              <div id="BOTONES">
+                <div id="butonesN">
+                  <input id="butonNext2" onclick="next()" type="button" value="Next">
+                </div>
+              </div>
+
+            </div>
+        </div>
+
+
+        <div id="secondRe">
+
+          <label> <strong> Gender: </strong></label>
+          <br>
+          <div id="gender">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" />
+          </div>
+
+          <label> <strong>Grade:</strong></label>
+          <br>
+          <div id="pro">
+            <div id="grade">
+              <label for="pre_school">Pre-School</label>
+              <input type="radio" name="grade" id="radio" value="pre_school" />
+
+              <label for="1st">1st</label>
+              <input type="radio" name="grade" id="radio" value="1st" />
+
+              <label for="2nd">2nd</label>
+              <input type="radio" name="grade" id="radio" value="2nd" /><br>
+            </div>
+
+            <div id="grade2">
+              <label for="3rd">3rd</label>
+              <input type="radio" name="grade" id="radio" value="3rd" />
+
+              <label for="4th">4th</label>
+              <input type="radio" name="grade" id="radio" value="4th" />
+
+              <label for="5th">5th</label>
+              <input type="radio" name="grade" id="radio" value="5th" />
+            </div>
+          </div>
+
+          <label> <strong> Which elementary schools do you live near? </strong></label>
+          <label for="school_1" class="impinfo">First Closest School:</label>
+          <div id="checkbox">
+            <select name="school_1" id="school_1">
+              <option value="katzenmaier">AJ Katzenmaier</option>
+              <option value="greenbay">Greenbay</option>
+              <option value="yeager">Howard A Yeager</option>
+              <option value="hart">Marjorie P Hart</option>
+              <option value="north">North Elementary</option>
+              <option value="south">South Elementary</option>
+            </select>
+          </div>
+
+          <br>
+
+          <label for="school_2" class="impinfo">Second Closest School:</label>
+          <div id="checkbox">
+            <select name="school_2" id="school_2">
+              <option value="katzenmaier">AJ Katzenmaier</option>
+              <option value="greenbay">Greenbay</option>
+              <option value="yeager">Howard A Yeager</option>
+              <option value="hart">Marjorie P Hart</option>
+              <option value="north">North Elementary</option>
+              <option value="south">South Elementary</option>
+            </select>
+          </div>
+
+          <div id="BOTONES">
+            <div id="butonesB">
+              <input id="butonBack2" onclick="back2()" type="button" value="Back">
+            </div>
+            <div id="butonesN">
+              <input id="butonNext2" onclick="next2()" type="button" value="Next">
+            </div>
+          </div>
+
+        </div>
+        <div id="thirdRe">
+          <div id="whatPosition1">
+            <label>
+              <legend id="posición"> What position(s) do you normally play? <span class="note">(check all that
+                  apply)</span>
+              </legend>
+              <label for="n_forward">Forward</label>
+              <input type="checkbox" name="normal_position" id="position" value="n_forward" />
+              <label for="n_defense">Defense</label>
+              <input type="checkbox" name="normal_position" id="position" value="n_defense" />
+              <label for="n_midfield">Midfield</label>
+              <input type="checkbox" name="normal_position" id="position" value="n_midfield" />
+              <label for="n_goalkeeper">Goalkeeper</label>
+              <input type="checkbox" name="normal_position" id="position" value="n_goalkeeper" />
+            </label>
+          </div>
+          <div id="whatPosition2">
+            <label>
+              <legend id="posición2"> What position(s) do you want to play? <span class="note">(check all that
+                  apply)</span>
+              </legend>
+              <label for="w_forward">Forward</label>
+              <input type="checkbox" name="want_position" id="position2" value="w_forward" />
+              <label for="w_defense">Defense</label>
+              <input type="checkbox" name="want_position" id="position2" value="w_defense" />
+              <label for="w_midfield">Midfield</label>
+              <input type="checkbox" name="want_position" id="position2" value="w_midfield" />
+              <label for="w_goalkeeper">Goalkeeper</label>
+              <input type="checkbox" name="want_position" id="position2" value="w_goalkeeper" />
+            </label>
+
+            <div id="BOTONES2">
+              <div id="butonesB">
+                <input id="butonBack3" onclick="back3()" type="button" value="Back">
+              </div>
+              <div id="butonesN">
+                <input id="butonNext3" onclick="next3()" type="button" value="Next">
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+        <div id="fourthRe">
+          <div id="uniforms">
+            <label for="uniform" id="impinfo">Already Have a Uniform</label>
+            <input type="checkbox" name="uniform" id="uniform" />
+
+            <div id="jerseySize">
+              <legend id="gersey">Jersey Size:</legend>
+              <span class="uniformchoice">
+                <label for="j_y_small">Youth Small</label>
+                <input type="radio" name="jersey_size" id="radio" value="j_y_small" />
+                <label for="j_y_medium">Youth Medium</label>
+                <input type="radio" name="jersey_size" id="radio" value="j_y_medium" />
+                <label for="j_y_large">Youth Large</label>
+                <input type="radio" name="jersey_size" id="radio" value="j_y_large" />
+                <label for="j_small">Small</label>
+                <input type="radio" name="jersey_size" id="radio" value="j_small" />
+            </div>
+            <div id="jerseySize2">
+              <label for="j_medium">Medium</label>
+              <input type="radio" name="jersey_size" id="radioJ" value="j_medium" />
+              <label for="j_large">Large</label>
+              <input type="radio" name="jersey_size" id="radioJ" value="j_large" />
+              <label for="j_x_large">Extra-Large</label>
+              <input type="radio" name="jersey_size" id="radioJ" value="j_x_large" />
+              </span>
+            </div>
+
+            <div id="uniforms">
+
+              <div id="jerseySize">
+                <legend id="gersey">Shorts Size:</legend>
+                <span class="uniformchoice">
+                  <label for="s_y_small">Youth Small</label>
+                  <input type="radio" name="shorts_size" id="radio" value="s_y_small" />
+                  <label for="s_y_medium">Youth Medium</label>
+                  <input type="radio" name="shorts_size" id="radio" value="s_y_medium" />
+                  <label for="s_y_large">Youth Large</label>
+                  <input type="radio" name="shorts_size" id="radio" value="s_y_large" />
+                  <label for="s_small">Small</label>
+                  <input type="radio" name="shorts_size" id="radio" value="s_small" />
+              </div>
+              <div id="jerseySize2">
+                <label for="s_medium">Medium</label>
+                <input type="radio" name="shorts_size" id="radioJ" value="s_medium" />
+                <label for="s_large">Large</label>
+                <input type="radio" name="shorts_size" id="radioJ" value="s_large" />
+                <label for="s_x_large">Extra-Large</label>
+                <input type="radio" name="shorts_size" id="radioJ" value="s_x_large" />
+                </span>
+              </div>
+
+            </div>
+            <div id="BOTONES">
+              <div id="butonesB">
+                <input id="butonBack2" onclick="back4()" type="button" value="Back">
+              </div>
+              <div id="butonesN">
+                <input id="butonNext2" onclick="next4()" type="button" value="Next">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="fifthRe">
+          <h2> Permission to Play</h2>
+          <div id="contract">
+            <p>
+              I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
+              rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury
+              associated with soccer and in consideration for the "League" accepting the registrant for its soccer
+              programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and
+              associated personnel and volunteers, including the facilities used for practices and games, against any
+              claim by or on behalf of the registrant as a result of the registrant's participation in the program
+              and/or
+              being transported to or from NYSL sponsored activities, which transportation.
+            </p>
+            <p>
+              By entering my name below, I hereby agree and authorize the above. In addition, by entering my name below,
+              I
+              also acknowledge that I have read the cancellation policy and agree to its terms.
+            </p>
+            <p>
+              <label for="signature">Parent/Guardian Signature:</label>
+              <input type="text" name="signature" id="signature" />
+              <label for="sig_date">Date:</label>
+              <input type="date" name="sig_date" id="sig_date" />
+            </p>
+          </div>
+
+          <p><input id="enviar" type="submit" /></p>
+
+          <div id="BOTONES">
+            <div id="butonesBB">
+              <input id="butonBack22" onclick="backFinal()" type="button" value="Back">
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      </form>
+    </article>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./script/main.js"></script>
+</body>
+
+</html>
